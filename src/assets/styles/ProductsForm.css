@@ -1,15 +1,8 @@
-*{
-    box-sizing: border-box;
-    max-width: 800px;
-    /* margin: 30px; */
-    
-}
 form {
     width: 500px;
     border-radius: 20px;
     padding: 15px;
     margin-bottom: 20px;
-    /* margin-right: 120px; */
     background-color: var(--border-font-color);
 }
 
@@ -22,7 +15,6 @@ form div label {
     width: 170px;
     height: 40px;
     padding: 8px;
-   
     border: 1px solid var(--bg-color);
     border-right: none;
     border-radius: 10px 0 0 10px;
@@ -71,3 +63,24 @@ form button:hover, form button:focus {
     color: var(--button-blue-color);
 }
 
+#loader {
+
+}
+@media (max-width: 400px){
+    *{
+     max-width: 400px;
+     
+    } 
+    form div input {
+        width: 150px;
+        height: 40px;
+        
+    }
+    form {
+        width: 340px;
+        padding: 10px;
+        
+    }
+
+
+ }

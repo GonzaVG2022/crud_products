@@ -26,3 +26,9 @@ button:focus {
 body {
     background-color: var(--bg-color);
 }
+@media (max-width: 400px){
+    *{
+     max-width: 400px;
+     /* background-color: #f10a0a;  */
+    } 
+ }
