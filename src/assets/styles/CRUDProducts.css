@@ -3,7 +3,7 @@
     padding: 20px;
     margin: 20px auto 0 auto;
 }
-@media (max-width: 400px ){
+@media (max-width: 500px ){
     #crud-products {
         width: 200px;
         padding: 10px;
